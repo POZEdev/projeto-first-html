@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+   
+    <h1 style="text-align:center">Desafio DIO.me<blockquote><mark>Oque aprendemos? </mark></blockquote></h1> 
+    <hr/>
+    
+    <h2 id="índice">Índice</h2>
+        <ul>
+            <li><a href="#história"><h5>História</h5></a></li>
+                <ul>
+                    <li><a href="#computadores"><h5>Computadores</h5></a></li>
+                    <li><a href="#grandes-nomes"><h5>Grandes Nomes</h5></a></li>
+                    <li><a href="#client-server"><h5>Como funciona a web?</h5></a></li>
+                    <li><a href="#linguagem-de-programação"><h5>Linguagem de programação</h5></a></li>
+                </ul>
+            <li><a href="#"><h5>Tags</h5></a></li>
+
+        </ul>
+    <hr/>
+
+    <h2 id="história" style="color: gold; background-color: black; text-align: center;">História </h2> 
+
+    <h4 id="computadores" style="text-align: center;"><u>Computadore<sub>s</sub></u></h4> 
+
+    <p>A história dos computadores se iniciou na 1ª geração com a necessidade de resolver cálculos matemáticos altamente complexos com maior velocidade.</p>
+    <p>Naquela época ocorria a 2<sup>a</sup> guerra mundial e a corrida espacial, grandes matemáticos poderiam resolver tais cálculos porém era uma corrida, quanto mais rápido fossem obtidos os resultados, maior seria a chance de conquistar esse objetivo.</p>
+    <p>Na <strong>1ª geração</strong> foram criados os seguintes computadores:</p>
+    <ol>
+        <li><strong>Havard Mark 1</strong> <i>(1944)</i></li>
+        <li><strong>Colossus</strong> <i>(1946)</i></li>
+        <li><strong>Eniac</strong> <i>(1946)</i></li>
+    </ol>
+    
+    <p>O computador era muito grande e complexo, somente cientistas com muita experiência conseguiam realizar qualquer operação, onde inciou a idéia de facilitar o entendimento para outros públicos. Chegamos a <strong>2ª geração</strong> onde criaram os transistores que reduziram o tamanho dos computadores, possibilitando a "mobilidade", porém seu tamanho e peso ainda eram muito elevados</p>
+    <p>Na <strong>3ª geração</strong> criaram o circuito integrado que era composto por: transistores, capacitores e resistores. Dessa maneira os computadores tiveram sua complexidade, tamanho e peso reduzidos drásticamente, facilitando ainda mais seu uso para não cientistas .</p>
+    <p>A partir de 1971 entramos na <strong>4ª geração</strong>, onde foi criado o mouse e teclado separados do computador, chegando aos notebooks e smartphones da atualidade</p>
+    <p> Temos também a <strong>5ª geração</strong> formada por bitcoins, IA's, realidade virtual, etc... Há quem diga que estamos nessa geração e outros que esses segmentos seriam apenas uma parte da internet</p>
+   
+    <small><a href="#índice" style="text-align: right;"><h6>Índice</h6></a></small>
+   
+    <hr/>
+
+    <h4 id="grandes-nomes" style="text-align: center;"><u>Grandes Nomes</u></h4> 
+
+    <p> <strong> Murray Hopper</strong>, uma das primeiras programadoras do mark 1 em 1944, introduziu o termo bug na computação e criou a linguagem de programação de alto nível Flow-Matic.</p>
+    <p> <strong>Joseph Carl Robnett Licklider</strong>, recrutado pela DARPA depois de teorizar sobre uma rede galática de computadores e plantou a semente da comunicação entre dois pontos distintos através do computador.</p>
+    <p> <strong>Robert E. Kahn</strong>, Primeira apresentação pública da ARPANet, apresentou o primeiro email e criou o TCP/IP</p>
+    <p> <strong>Tim Berners-Lee</strong>, inventou o WWW, é diretor do World Wide Web Consortion W3C, recebeu diversas homenagens incluindo o título de cavaleiro dado pela Rainha Elizabeth II e popularizou o HTTP e HTML.</p>
+    <p> <strong>Marc Andreessen</strong>, (re)inventou o navegador criando o Netscape Navigator feito a partir do Mosaic, tornou o navegador mais simples para todos com diversos recursos e conquistou 90% da internet na época, sendo superado pelo Internet Explorer anos mais tarde.</p>
+    <p> <strong>Bill Gates</strong>, fundou a Microsoft e criou o internet explorer, tornando o computador acessível para todos com acesso à internet.</p>
+    <p> <strong>Steve Jobs</strong>, fundou a Apple que é concorrente direta da Microsoft, reinventou o celular criando o smartphone que conhecemos hoje através do lançamento do iPhone em 29/06/2007.</p>
+
+    <small><a href="#índice" style="text-align: right;"><h6>Índice</h6></a></small>
+    <hr/>
+
+    <h4 id="client-server" style="text-align: center;"><u>Como funciona a web?</u></h4> 
+
+    <ol><li>Os sites por onde navegamos atualmente recebem e transmitem informações por todo o mundo.</li>
+    <li>Os clientes/usuários acessam a página através do navegador por diversos tipos de dispositivos, quando conectados à internet. Em empresas é comum existir sites intranet que não precisam de internet, necessitando que todos estejam conectados por cabo na mesma rede.</li>
+    <li> Os sites tem suas informações carregadas por um servidor que tem ligação com o banco de dados que possui todos os dados arquivados e prontos para serem transmitidos.</li>
+    <li>Os servidores podem ter diversas funções, eles arquivam dados como imagens e videos, podem funcionar como rede de segurança, streaming, e-mail e web.</li>
+    </ol>
+    <small><a href="#índice" style="text-align: right;"><h6>Índice</h6></a></small>
+    <hr/>
+
+    <h4 id="linguagem-de-programação" style="text-align: center;"><u>Linguagem de programação</u></h4> 
+
+    <p> É uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas<i>(software)</i>, esses são criados para criar soluções.</p>
+    <p> As mais populares atualmente são: </p>
+    <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>C#</li>
+    </ul>
+    
+    <p> Existem linguagens Server-Side e Client-Side, que são respectivamente, executadas no servidor como <u>PHP, Ruby, C#, Java e Java Script</u>; e executada no navegador do cliente/usuário existe somente o JavaScript.</p>
+    <p> O Google Chrome<i>(Client-Side)</i> e o NodeJS<i>(Server-Side)</i> utilizam o V8 engine<i>(Open-Source)</i> que faz o processamento do JavaScript então possibilita que ele seja executado em ambos.</p>
+   
+   <small><a href="#índice" style="text-align: right;"><h6>Índice</h6></a></small>
+    <hr/>
+
+    <div style="background-color:rgb(161, 220, 176);">
+    <h4 style="text-align: center;"><i>Tags Utilizadas no desenvolvimento deste blog:<i/></h4>
+    <ol>
+        <li><strong>H1,H2,H3,H4,H5,H6</strong> -> titulos de tamanho decrescente</li>
+        <li><strong>blockquote</strong> -> pular linha</li>
+        <li><strong>mark</strong> -> marca texto</li>
+        <li><strong>ul</strong> -> lista não ordenada</li>
+        <li><strong>ol</strong> -> lista ordenada</li>
+        <li><strong>li</strong> -> listar itens</li>
+        <li><strong>a</strong> -> âncora para links externos ou internos</li>
+        <li><strong>a href="#"</strong> -> âncora para id interno</li>
+        <li><strong>u</strong> -> sublinhado</li>
+        <li><strong>i</strong> -> itálico</li>
+        <li><strong>p</strong> -> tradicional parágrafo</li>
+        <li><strong>small</strong> -> diminuir fonte</li>
+        <li><strong>hr</strong> -> linha divisória </li>
+        <li><strong>sup</strong> -> exemplo: 2<sup>a</sup></li>
+        <li><strong>sub</strong> -> exemplo: Computadore<sub>s</sub></li>
+        <li><strong>strong</strong>-> negrito</li>
+    </ol>
+
+    <P>Tags sugeridas:</P>  
+    <ol>
+        <li><strong>font</strong> -> não foi utilizada</li>
+        <li><strong>del</strong> -> risco ao meio</li>
+        <li><strong>p</strong> -> tradicional parágrafo</li>
+        <li><strong>abbr</strong> -> cria um texto ao colocar o mouse em cima</li>
+    </ol>
+</div>
+
+    
+    <hr/>
+    <del><h3 style="text-align: center;"> <abbr title="LEARNING HTML WITH DIO.ME">GABRIEL POZENATO DURBAN</abbr></h3></del>
+</body>
+</html>
