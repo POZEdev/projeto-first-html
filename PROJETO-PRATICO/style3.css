@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    /* Css reset, * asterisco representa que a estilização será aplicada a todos os itens do css */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+
+header {
+    height:90px;
+    /* altura */
+    display: flex;
+    /* coloca os blocos filhos um ao lado do outro. */
+    justify-content: space-around;
+    /* coloca espaços irregulares entre os blocos filhos contando com a lateral, horizontalmente.  */
+    align-items: center;
+    /* coloca os blocos filhos no centro, verticalmente. */
+    background: black;
+}
+
+nav {
+    width: 60%;
+    /* largura */
+    background: black;
+    
+}   
+
+ul {
+    display: flex;
+    /* coloca os blocos filhos um ao lado do outro. */
+    width: 100%;
+    /* largura */
+    justify-content: space-between;
+    /* coloca espaços regulares entre os blocos filhos sem contar com a lateral, horizontalmente. */
+    background: black;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    /* tamanho da fonte */
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+    background: black;
+}
+
+li:hover {
+    /* ao passar o mouse em cima da navegação mudará de aliceblue para red */
+    color: gray;
+    transform: scale(1.05);
+}
+
+#logo {
+    width: 150px;
+    /* assumirá uma largura de 150px */
+    height: auto;
+    /* assumirá a altura do bloco pai que é o header. */
+}
+
+.container-fotos {
+    width: 99%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content-fotos {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    background-size:cover;
+    background-position:center;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: groove;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.foto1 {
+    background-image: url('./foto2.jpeg');
+    background-position: 100%; 
+}
+
+.foto2 {
+    background-image: url('./foto3.jpeg');
+    background-position: 100%; 
+
+}
+
+.foto3 {
+    background-image: url('./foto4.jpeg');
+    background-position: 100%; 
+
+}
+
+.foto4 {
+    background-image: url('./foto5.jpeg');
+    background-position: 100%; 
+
+}
+
+.foto5 {
+    background-image: url('./foto1.jpg');
+}
+
+.foto6 {
+    background-image: url('./foto6.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-position: bottom;
+    margin-top: 1200px;
+}
+
+span {
+    color: #FFF;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .content-fotos {
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+
+    .card {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+
+    footer{
+        margin-top: 1100px;
+
+    }
+}

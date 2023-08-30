@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    /* Css reset, * asterisco representa que a estilização será aplicada a todos os itens do css */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+
+header {
+    height:90px;
+    /* altura */
+    display: flex;
+    /* coloca os blocos filhos um ao lado do outro. */
+    justify-content: space-around;
+    /* coloca espaços irregulares entre os blocos filhos contando com a lateral, horizontalmente.  */
+    align-items: center;
+    /* coloca os blocos filhos no centro, verticalmente. */
+    background: black;
+}
+
+nav {
+    width: 60%;
+    /* largura */
+    background: black;
+    
+}
+
+ul {
+    display: flex;
+    /* coloca os blocos filhos um ao lado do outro. */
+    width: 100%;
+    /* largura */
+    justify-content: space-between;
+    /* coloca espaços regulares entre os blocos filhos sem contar com a lateral, horizontalmente. */
+    background: black;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    /* tamanho da fonte */
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+    background: black;
+}
+
+li:hover {
+    /* ao passar o mouse em cima da navegação mudará de aliceblue para red */
+    color: yellow;
+    transform: scale(1.05);
+}
+
+#logo {
+    width: 150px;
+    /* assumirá uma largura de 150px */
+    height: auto;
+    /* assumirá a altura do bloco pai que é o header. */
+}
+
+#duas-colunas {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    
+    
+}
+
+#comentario1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: yellow;
+    color: white;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+
+}
+
+#comentario2 {
+    height: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: yellow;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+    
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #FFF;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+#duas-colunas {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+
+}
+
+#comentario1 {
+    margin-top: 0px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: yellow;
+    color: white;
+    text-align: center;
+
+}
+
+#comentario2 {
+    height: 95%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: yellow;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+    
+}
+}
